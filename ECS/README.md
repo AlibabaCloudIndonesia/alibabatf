@@ -1,4 +1,5 @@
 ECS Example
+
 The example launches ECS instance, disk, and attached the disk on ECS. the count parameter in variables.tf can let you create specify number ECS instances.
 
 Get up and running
@@ -10,6 +11,8 @@ Planning phase
   	var.datacenter
   		Enter a value: {datacenter}
   	....
+    
+    
 Apply phase
 
   terraform apply 
@@ -18,6 +21,8 @@ Apply phase
   	var.datacenter
   		Enter a value: {datacenter}
   	....
+    
+    
 Destroy
 
   terraform destroy
