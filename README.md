@@ -44,54 +44,6 @@ export ALICLOUD_ACCOUNT_ID="***"
 terraform plan
 # terraform apply
 # terraform destroy
-Regions
-cn-qingdao
-cn-beijing
-cn-zhangjiakou
-cn-huhehaote
-cn-hangzhou
-cn-shanghai
-cn-shenzhen
-cn-hongkong
-
-ap-northeast-1
-ap-southeast-1
-ap-southeast-2
-ap-southeast-3
-ap-southeast-5
-ap-south-1
-
-us-east-1
-us-west-1
-
-me-east-1
-
-eu-central-1
-For more information about the regions and availability zones, please use the data sources alicloud_regions and alicloud_zones.
-
-Supported products
-ECS
-Block Storage
-SLB
-VPC
-NAT Gateway
-RDS
-ESS
-OSS
-RAM
-CDN
-DNS
-Container Service
-Log Service
-Function Compute
-TableStore
-Documents
-The most recent documentation is available here:
-
-Terraform Docs
-Github
-Acceptance Testing
-Before making a release, the resources and data sources are tested automatically with acceptance tests (the tests are located in the alicloud/*_test.go files). You can run them by entering the following instructions in a terminal:
 
 cd $GOPATH/src/github.com/alibaba/terraform-provider
 export ALICLOUD_ACCESS_KEY=xxx
